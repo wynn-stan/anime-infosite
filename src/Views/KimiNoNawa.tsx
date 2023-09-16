@@ -5,7 +5,7 @@ export default function KimiNoNawa() {
     <>
       <WebViewContainer className="hidden md:flex">
         <div className="image">
-          <img src="/Image.png" alt="image" />
+          <img src="/mitsuha-without-cleanup.png" alt="image" />
         </div>
         <div className="blue-background">
           <svg
@@ -61,7 +61,7 @@ export default function KimiNoNawa() {
           </div>
 
           <div className="text-sm text-center w-full leading-[68px] flex justify-center items-end">
-            <span className="font-bold">Director:</span>
+            <span className="font-bold">Director: </span>{" "}
             <span className="font-medium">Makoto Shinkai</span>
           </div>
         </div>
