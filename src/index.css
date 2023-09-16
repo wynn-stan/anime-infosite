@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+}
+
+#root {
+  flex-grow: 1;
+}
