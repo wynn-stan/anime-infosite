@@ -3,7 +3,7 @@ import styled from "styled-components";
 export default function KimiNoNawa() {
   return (
     <>
-      <WebViewContainer className="hidden md:flex">
+      <WebViewContainer className="hidden lg:flex">
         <div className="image">
           <img src="/mitsuha-without-cleanup.png" alt="image" />
         </div>
@@ -38,13 +38,13 @@ export default function KimiNoNawa() {
           </div>
         </div>
       </WebViewContainer>
-      <MobileViewContainer className="flex md:hidden">
+      <MobileViewContainer className="flex lg:hidden">
         <div className="top-section max-h-[505px] flex flex-col">
           <div>
             <img src="/mobile-girl.png" alt="image" />
           </div>
         </div>
-        <div className="bottom-section pt-[32px] pb-[24px] flex-grow flex flex-col justify-between">
+        <div className="bottom-section sm:pt-[32px] sm:pb-[24px] flex-grow flex flex-col justify-between">
           <div>
             <div className="flex justify-between px-[32px] items-center">
               <div className="text-[20px]">2016</div>
@@ -60,8 +60,8 @@ export default function KimiNoNawa() {
             </div>
           </div>
 
-          <div className="text-sm text-center w-full leading-[68px] flex justify-center items-end">
-            <span className="font-bold">Director: </span>{" "}
+          <div className="text-sm text-center w-full leading-[68px] flex gap-1 justify-center items-end">
+            <span className="font-bold">{`Director: `}</span>
             <span className="font-medium">Makoto Shinkai</span>
           </div>
         </div>
